@@ -10,7 +10,7 @@ import {
   getBooks,
   deleteBook,
 } from "./lib/books-api";
-import type { Book } from "./lib/types";
+import type { Book } from "./lib/bookcats-types";
 import Image from "next/image";
 
 function getCoverImageSrc(coverUrl: string | null): string | null {
